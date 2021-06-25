@@ -1,17 +1,16 @@
 # Stock-Price-Prediction
-# Stock-Price-Prediction
 
-**PROBLEM STATEMENT**
+## PROBLEM STATEMENT 
 
 One of the most important things to do is to predict how the stock market will do. Physical vs. psychological factors, rational vs. irrational behaviour, and so on are all factors in the prediction. Almost all of these factors combine to make stock prices extremely volatile and difficult to forecast accurately. In this project, we will be predicting future stock prices through a Long Short Term Memory (LSTM) method. The stock prices for this new duration will be predicted by the already trained LSTM model, and the predicted prices will be plotted against the original prices to visualise the model’s accuracy.
 
 
-**INTRODUCTION**
+## INTRODUCTION
 
 In the current world, all of us want our money to grow, so we can lead a comfortable life. This is only possible when we invest in stocks. But this does have a downside as we could lose money if we don't invest correctly. So, to reduce risks and increase profits, we have made a model that can predict the future values of the stock market and can also give insights into how the stock has been giving returns over the past 10 years. Our model can be used by investors and traders both, to gain some insight into the stock and thus use it to correctly put their money. It would also help them know when is the best time to enter the market, to leave the shares, or to buy more shares. Along with this, the plots of the Moving Average would help the traders to trade between various stocks and earn profits.
 
 
-**TERMINOLOGY**
+## TERMINOLOGY
 
 1.	Date: Trading date of the stock.
 2.	Open: This price of stock’s opening price which means the very beginning price of a particular trading day, but which is not the same price of the previous day's ending price.
@@ -25,7 +24,7 @@ In the current world, all of us want our money to grow, so we can lead a comfort
 10.	 Expected Return vs Risk: Greater the risk, the larger the expected return and the larger the chances of substantial loss. Investments which carry low risks such as high grade bonds will offer a lower expected rate of return than those which carry high risk such as equity stock of a new company.
 
 
-**METHODOLOGY**
+## METHODOLOGY
 
 LSTMs are widely used for sequence prediction problems and have proven to be extremely effective. The reason they work so well is because LSTM is able to store past information that is important, and forget the information that is not. LSTM has three gates:
 1.	The input gate: The input gate adds information to the cell state
